@@ -40,10 +40,10 @@ function setup() {
 	//Create a Ground
 	//ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	//World.add(world, ground);
-
+        box1 = new Box(400,690,200,20,"red");
 	box2 = new Box(500,650,20,100,"red");
 	box3 = new Box(295,650,20,100,"red");
-	box1 = new Box(400,690,200,20,"red");
+	
 	
 	Engine.run(engine);
 }
